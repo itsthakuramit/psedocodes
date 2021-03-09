@@ -1,0 +1,89 @@
+Q1 -
+	Enter two no a and b
+	Then, c=a*b
+	Print c
+
+
+Q2 -
+	Enter no a
+	IF (a!=5 || a!=6)
+		Print a is neither 5 nor 6
+	
+
+Q3 -
+	Enter no n 
+	IF(n>=0||n<=10)
+		Print "Blue"
+	ELSE IF(n>=10||n<=20)
+		Print "Red"
+	ELSE IF(n>=20||n<=30)
+		Print "Green"
+	ELSE
+		Print "Invalid colour option"
+
+
+Q4 -
+	FOR(i=1; i<=100; i++)
+		IF(i%5==0)
+			Print i
+
+
+Q5 -
+	Enter the ending point n
+	SET i=0 and count=0
+	WHILE(i<=n)
+		IF(i%2==0)
+			count=count+1
+
+		i=i+1
+
+	Print count
+
+
+Q6 - 
+	a) Enter the 5 no using array a[5]
+		FOR(i=0; i<5; i++)
+			READ a[i]
+
+	b) set sum=0
+		FOR(i=0; i<5; i++)
+			sum=sum+a[i]
+
+		avg=sum/5
+
+	c) set max=0 and min=0
+		FOR(i=0; i<5; i++)
+			FOR(j=1; j<5; j++)
+				IF(a[i]>a[j])
+					max=a[i]
+
+				IF(a[i]<a[j])
+					min=a[i]
+
+	d) Print avg
+	   Print max and min
+
+
+Q7 - 
+	Enter the 3 no using array a[3]
+		FOR(i=0; i<3; i++)
+			READ a[i]
+
+		FOR(i=0; i<3; i++)
+			FOR(j=1; j<3; j++)
+				IF(a[j]<a[i])
+					a[i]=a[j]
+
+		FOR(i=0; i<3; i++)
+			Print a[i]
+
+
+Q8 -
+	set sum=0
+	
+	DO	
+		Enter a no n
+		sum=sum+n
+	WHILE(n>=0)
+		
+	Print sum
